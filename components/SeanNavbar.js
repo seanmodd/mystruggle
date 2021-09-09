@@ -204,8 +204,8 @@ const SeanNavbar = () => {
                     transition: 'all 0.5s ease-in-out',
                   }}
                 >
-                  <Link href="/rendering/ssg-getstaticpaths">
-                    <a>SSG getStaticPaths</a>
+                  <Link href="/rendering/ssr-dynamic-params">
+                    <a>SSR Dynamic Params</a>
                   </Link>
                 </MenuItem>
               </MenuGroup>

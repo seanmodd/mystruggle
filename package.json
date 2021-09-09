@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
@@ -19,6 +20,7 @@
     "@fontsource/raleway": "^4.5.0",
     "faker": "^5.5.3",
     "framer-motion": "^4.1.17",
+    "json-server": "^0.16.3",
     "moment": "^2.29.1",
     "next": "11.1.2",
     "next-auth": "^3.29.0",
