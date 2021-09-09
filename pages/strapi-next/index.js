@@ -1,5 +1,5 @@
 import { VStack, Stack } from '@chakra-ui/react';
-import Post from 'components/Post';
+import Post from '../../components/Post';
 
 export default function Home({ posts }) {
   // {console.log(posts)}
@@ -28,7 +28,8 @@ export default function Home({ posts }) {
 
 export async function getStaticProps() {
   // ! get post from Strapi API
-  const res = await fetch('http://localhost:1337/posts');
+  // const res = await fetch('http://localhost:1337/posts');
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
   const posts = await res.json();
   return {
     props: { posts },

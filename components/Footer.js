@@ -6,7 +6,7 @@ export default function Footer() {
       bg={useColorModeValue('gray.100', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
     >
-      <Box pt="50px" pb={10}>
+      <Box pt="50px" mt="105px" pb={10}>
         <Flex
           align="center"
           _before={{

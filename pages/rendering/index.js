@@ -1,6 +1,6 @@
 import { Heading, Text, VStack } from '@chakra-ui/react';
-import ChangingColor from 'components/ChangingColor';
 import faker from 'faker';
+import ChangingColor from '../../components/ChangingColor';
 
 function App() {
   return (

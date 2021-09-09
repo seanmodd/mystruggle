@@ -125,7 +125,7 @@ const SeanNavbar = () => {
                     transition: 'all 0.5s ease-in-out',
                   }}
                 >
-                  <Link href="/learning/catch-all">
+                  <Link href="/learning/catch-all/">
                     <a>Catch All</a>
                   </Link>
                 </MenuItem>

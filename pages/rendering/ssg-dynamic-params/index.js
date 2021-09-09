@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Heading, Image, Text, VStack, Stack } from '@chakra-ui/react';
 import faker from 'faker';
 
@@ -14,6 +15,9 @@ function App() {
       >
         {faker.animal.type()}
       </h1>
+      <Link href="/rendering/ssg-dynamic-params/posts/5">
+        <a>SSG with Dynamic Params - Posts/5</a>
+      </Link>
       <Text>1. {faker.vehicle.vehicle()}</Text>
       <Text>1. {faker.internet.email()}</Text>
       <Stack direction="row">

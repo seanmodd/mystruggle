@@ -1,5 +1,5 @@
 import { Heading, VStack } from '@chakra-ui/react';
-import SinglePost from 'components/SinglePost';
+import SinglePost from '../../components/SinglePost';
 
 export default function Post({ post }) {
   return (
