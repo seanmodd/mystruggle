@@ -1,0 +1,53 @@
+{
+  "name": "mystruggle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/alata": "^4.5.0",
+    "@fontsource/inter": "^4.5.0",
+    "@fontsource/poppins": "^4.5.0",
+    "@fontsource/raleway": "^4.5.0",
+    "faker": "^5.5.3",
+    "framer-motion": "^4.1.17",
+    "moment": "^2.29.1",
+    "next": "11.1.2",
+    "next-auth": "^3.29.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.15.2",
+    "react-icons": "^4.2.0",
+    "swup": "^2.0.14",
+    "typeface-poppins": "^1.1.13"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "@types/node": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-wesbos": "^2.0.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.2"
+  }
+}

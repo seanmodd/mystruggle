@@ -1,0 +1,70 @@
+
+{
+  "extends": [
+    "wesbos"
+  ]
+}
+
+//! THE ORIGINAL
+// {
+//   "extends": [
+//     "next",
+//     "prettier"
+//   ],
+//   "plugins": [
+//     "prettier"
+//   ],
+//   "rules": {
+//     // "prettier/prettier": "error",
+//     "react/jsx-key": "off",
+//     "prettier/prettier": "off",
+//     "react/no-unescaped-entities": "off",
+//     "import/no-anonymous-default-export": "off",
+//     "@next/next/link-passhref": "off"
+//   }
+// }
+
+
+// ! old .eslintrc.json was as follows:
+
+// {
+//   "plugins": [
+//       "react"
+//   ],
+//   "extends": [
+//     "wesbos",  
+//     "eslint:recommended",
+//     "plugin:react/recommended"
+//   ]
+//   ,
+//   "rules": {
+//      "react/no-set-state": "off",
+//      "react/react-in-jsx-scope": "off",
+//      "react/prop-types": "off",
+//      "react/jsx-uses-react": "off",
+//      "react/jsx-uses-vars": "off",
+//      "react/jsx-no-undef": "off",
+//      "react/jsx-no-bind": "off",
+//      "react/jsx-closing-bracket-location": "off",
+//      "react/jsx-curly-spacing": "off",
+//      "react/jsx-indent-props": "off",
+//      "react/jsx-indent": "off",
+//      "react/jsx-wrap-multilines": "off",
+//      "react/jsx-tag-spacing": "off",
+//      "react/jsx-key": "off",
+//      "no-unused-vars": "off",
+//      "react/button-has-type": "off",
+//      "prettier/prettier": "off",
+//      "import/no-unresolved": "off",
+//      "quotes": "off",
+//      "react/jsx-props-no-spreading": "off",
+//      "no-shadow": "off",
+//      "jsx-a11y/click-events-have-key-events": "off",
+//      "jsx-a11y/no-static-element-interactions": "off",
+//      "arrow-body-style": "off",
+//      "react/self-closing-comp": "off",
+//      "react/no-unescaped-entities": "off"
+    
+// }
+// }
+
